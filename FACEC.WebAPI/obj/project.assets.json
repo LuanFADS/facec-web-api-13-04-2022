@@ -1,11 +1,39 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {
+      "FeatherHttp/0.1.83-alpha.g15473de7d1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FeatherHttp.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FeatherHttp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FeatherHttp/0.1.83-alpha.g15473de7d1": {
+      "sha512": "FHJGHj0PJ8RbfmyRYOi0u1X1bAbTtddI8hyCvtuJY3dARzORMdSal2Wn6JrevHURpTlkrGfePYstZNohmOgfSA==",
+      "type": "package",
+      "path": "featherhttp/0.1.83-alpha.g15473de7d1",
+      "files": [
+        ".nupkg.metadata",
+        "featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512",
+        "featherhttp.nuspec",
+        "lib/net5.0/FeatherHttp.dll",
+        "lib/net5.0/FeatherHttp.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": [
+      "FeatherHttp >= 0.1.83-alpha.g15473de7d1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\facec.lab04\\.nuget\\packages\\": {}
@@ -24,15 +52,16 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\facec.lab04\\.nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +72,14 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FeatherHttp": {
+            "target": "Package",
+            "version": "[0.1.83-alpha.g15473de7d1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QlR2rIzDA0JNDIMoXj8gSEouXU/7XI3rvqg55eF4Qw5eIwhJS56yco5wkPvBqAY26FUtj2pz7WZKGp98f0d6ww==",
+  "dgSpecHash": "Hq2eGl0qTHV/ydjW3gTNRIbsm0tcH+rJkhsUiuSKmugLLfBb9T1oKIP/UNhRAr233vRm/tIt2Gyt+SQQAV6Lbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\facec.lab04\\source\\repos\\Facec_13_04_2022\\FACEC.WebAPI\\FACEC.WebAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\facec.lab04\\.nuget\\packages\\featherhttp\\0.1.83-alpha.g15473de7d1\\featherhttp.0.1.83-alpha.g15473de7d1.nupkg.sha512"
+  ],
   "logs": []
 }
